@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'TT Firs Neue Educational';
+  src:
+    url('../fonts/TT\ Firs\ Neue\ Educational\ ExtraBold.woff2') format('woff2'),
+    url('../fonts/TT\ Firs\ Neue\ Educational\ ExtraBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Educational';
+  src:
+    url('../fonts/TT\ Firs\ Neue\ Educational\ ExtraBold\ Italic.woff2')
+      format('woff2'),
+    url('../fonts/TT\ Firs\ Neue\ Educational\ ExtraBold\ Italic.woff')
+      format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Educational';
+  src:
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Normal.woff2') format('woff2'),
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Normal.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Educational';
+  src:
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Normal\ Italic.woff2')
+      format('woff2'),
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Normal\ Italic.woff')
+      format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue Educational';
+  src:
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Regular.woff2') format('woff2'),
+    url('../fonts/TT\ Firs\ Neue\ Educational\ Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
