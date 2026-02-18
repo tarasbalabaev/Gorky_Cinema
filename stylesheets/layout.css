@@ -1,29 +1,58 @@
 * {
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
+
+html,
+body {
+  background-color: #ff1c20;
+  color: #ffedee;
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Firs Neue Educational', system-ui, sans-serif;
+  font-weight: 500;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-}
-::selection {
-  color: white;
-  background-color: black;
+  width: 60vw;
+  margin: 50px 20vw;
 }
 
-#start {
+#logo {
+  width: 300px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 30px 0;
+  font-weight: 900;
+}
+
+p {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+img {
   width: 100vw;
-  height: 100vh;
-  font-family: 'TT Firs Neue Educational', system-ui, sans-serif;
-  font-weight: 500;
-  background-color: red;
-  color: rgb(255, 237, 237);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 8vw;
-  font-size: 6vw;
+  margin: -2px -20vw;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 94vw;
+    margin: 10px 3vw;
+  }
+
+  img {
+    margin: -2px -3vw;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
